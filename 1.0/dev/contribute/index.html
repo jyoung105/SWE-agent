@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
@@ -691,6 +691,8 @@
       
         
       
+        
+      
     
     
     
@@ -853,6 +855,29 @@
   
   <span class="md-ellipsis">
     Competitive runs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../usage/adding_custom_tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Adding custom tools
     
   </span>
   
@@ -2347,7 +2372,7 @@
 
 
   
-    <a href="https://github.com/SWE-agent/SWE-agent/edit/main/docs/dev/contribute.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/SWE-agent/SWE-agent/edit/main/docs/dev/contribute.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2384,7 +2409,7 @@ pre-commit<span class="w"> </span>install
 <p class="admonition-title">Autofixes</p>
 <p>Most problems (including formatting) will be automatically fixed.
 Therefore, if <code>pre-commit</code>/<code>git commit</code> fails on its first run, simply try running it a second time.</p>
-<p>Some more autofixes can be enabled with the <code>--unsafe-fixes</code> option from <a href="https://github.com/charliermarsh/ruff"><code>ruff</code></a>:</p>
+<p>Some more autofixes can be enabled with the <code>--unsafe-fixes</code> option from <a href="https://github.com/astral-sh/ruff"><code>ruff</code></a>:</p>
 <div class="highlight"><pre><span></span><code>pipx<span class="w"> </span>run<span class="w"> </span>ruff<span class="w"> </span>check<span class="w"> </span>--fix<span class="w"> </span>--unsafe-fixes
 </code></pre></div>
 </div>
@@ -2466,7 +2491,7 @@ Run them with</p>
   However, if you make the behavior optional without complicating SWE-agent (for example by providing new <a href="../../config/tools/">commands</a>),
   we might be less strict.</li>
 <li>Please add simple unit tests or integration tests wherever possible. Take a look in the <a href="https://github.com/SWE-agent/SWE-agent/tree/main/tests">tests directory</a>
-  for inspiration. We emphasize simple easy-tow-rite tests that get a lot of coverage.</li>
+  for inspiration. We emphasize simple easy-to-write tests that get a lot of coverage.</li>
 </ul>
 <h2 id="building-the-documentation">Building the documentation <a name="mkdocs"></a></h2>
 <p>Simply run</p>
@@ -2618,7 +2643,7 @@ mkdocs<span class="w"> </span>serve
       <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "content.action.edit", "navigation.footer", "content.code.copy", "content.footnote.tooltips", "header.autohide", "announce.dismiss", "content.code.annotate", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
         <script src="../../assets/js/sh-annotation.js"></script>
       
